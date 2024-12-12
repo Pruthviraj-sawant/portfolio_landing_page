@@ -612,3 +612,138 @@ footer{
     display: flex;
     gap: 1rem;
 }
+
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .hero-section-subheading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .hero-section-des {
+        width: 90%;
+    }
+    .project-container {
+        gap: 60px;
+    }
+    .project-cards {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .nav-items {
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0;
+    }
+    .hero-section {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 3rem;
+    }
+    .hero-section-heading {
+        font-size: 30px;
+    }
+    .skill-container {
+        flex-direction: column;
+    }
+    .skill-container-left, .skill-container-right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 120px;
+    }
+    .hero-section-subheading {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .hero-section-des {
+        font-size: 16px;
+    }
+    .faded-text {
+        font-size: 4em;
+    }
+    .heading {
+        font-size: 60px;
+    }
+    .project-heading {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-section-heading {
+        font-size: 24px;
+    }
+    .hero-section-subheading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .btn-group {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .project-cards {
+        height: 300px;
+    }
+    .skill-fade-text {
+        font-size: 8em;
+    }
+    .cont-heading {
+        font-size: 3rem;
+    }
+    .subheading {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items */
+        align-items: center;
+    }
+    .nav-items {
+        gap: 0.5rem;
+        padding: 1rem 0;
+    }
+
+    .hero-section {
+        flex-direction: column; /* Stack hero section content */
+    }
+
+    .project-cards {
+        height: 300px; /* Reduce height for smaller screens */
+    }
+
+    .footer-container {
+        flex-direction: column; /* Stack footer items */
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-items div {
+        font-size: 16px; /* Reduce font size */
+    }
+
+    .heading {
+        font-size: 35px; /* Further adjust font size */
+    }
+
+    .project-cards {
+        height: 250px; /* Further reduce height */
+    }
+
+    .footer-container {
+        gap: 1rem;
+    }
+}
