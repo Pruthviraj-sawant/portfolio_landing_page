@@ -425,25 +425,22 @@
     transform: scale(1.1);
 }
 #project1{
-    background-image: url(images/project1.png);
+    background-image: url(images/imagee.png);
 }
  
 
 #project2{
-    background-image: url(images/project2.png);
+    background-image: url(images/imag.png);
     margin-left: 120px;
 }
 
 
 #project3{
-    background-image: url(images/project3.jpg);
+    background-image: url(images/image.png);
 }
 
 
-#project4{
-    background-image: url(images/project4.jpeg);
-    margin-left: 120px;
-}
+
 
 /* for responsive remainig */
 .skill-container{
