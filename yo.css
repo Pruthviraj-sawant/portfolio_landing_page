@@ -446,7 +446,7 @@
 .skill-container{
     position: relative;
     display: flex;
-    padding: 5rem;
+    padding: 2rem;
     margin-top: 5rem;
     margin: 10rem auto;
     gap: 5px;
@@ -468,11 +468,11 @@
     font-size: 15em;
     font-style:bold;
     color: rgb(231, 231, 231);
-    bottom: -31%;
+    bottom: -57%;
     right: -10%;
    user-select: none;
     position: absolute;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 .blob-image{
     position: absolute;
@@ -509,11 +509,11 @@
 
 .skill-subheading{
     margin-top: 1rem;
-    width: 85%;
+    width: 100%;
     text-align: justify;
 }
 .skill-subheading p{
-    margin: 15px 0;
+    margin: 5px 0;
 }
 /* contact */
 .contact-section{
@@ -698,6 +698,9 @@ footer{
     .skill-fade-text {
         font-size: 8em;
         margin-bottom: 400px;
+    }
+    .faded-text{
+        margin-bottom: 85px;
     }
     .cont-heading {
         font-size: 3rem;
