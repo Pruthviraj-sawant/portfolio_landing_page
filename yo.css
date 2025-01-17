@@ -37,17 +37,20 @@
     justify-content: baseline;
 }
 .logo-text{
-    margin-left: -3.2rem;
+    margin-left: -3rem;
     font-size: 28px;
 }
 .nav-items{
     display: flex;
+    flex-direction: row;
     gap: 2rem;
     padding: 0 4em;
 }
 .nav-items div{
     font-size: 20px;
     font-weight: 500;
+    display: flex;
+    flex-direction: row;    
     cursor: pointer;
 }
 .nav-items div a{
@@ -468,7 +471,7 @@
     font-size: 15em;
     font-style:bold;
     color: rgb(231, 231, 231);
-    bottom: -57%;
+    bottom: -43%;
     right: -10%;
    user-select: none;
     position: absolute;
@@ -629,6 +632,12 @@ footer{
     .project-cards {
         height: 400px;
     }
+    .logo-text{
+        margin-left: -2.2rem;
+    }
+    .link-icon{
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -697,7 +706,7 @@ footer{
     }
     .skill-fade-text {
         font-size: 8em;
-        margin-bottom: 400px;
+        margin-bottom: 250px;
     }
     .faded-text{
         margin-bottom: 85px;
@@ -753,6 +762,8 @@ footer{
     .nav-items {
         gap: 0.5rem;
         padding: 1rem 0;
+        display: flex;
+        flex-direction: row;
     }
 
     .hero-section {
