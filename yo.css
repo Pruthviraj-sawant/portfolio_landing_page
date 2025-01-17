@@ -16,6 +16,7 @@
     width: 100vw;
     overflow-y: auto;
     overflow-x: hidden;
+    width: 100%;
     
    
 }
@@ -635,9 +636,7 @@ footer{
     .logo-text{
         margin-left: -2.2rem;
     }
-    .link-icon{
-        font-size: 40px;
-    }
+   
 }
 
 @media screen and (max-width: 992px) {
@@ -795,6 +794,7 @@ footer{
     .footer-container {
         gap: 1rem;
     }
+   
 }
 
 
@@ -853,8 +853,8 @@ footer{
     }
 
     .icon {
-        font-size: 0.2rem;
-        height: 2px;
-        width: 2px;
+        font-size: 1.2rem;
+    
+        width: 10px;
     }
 }
